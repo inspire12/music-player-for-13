@@ -19,6 +19,11 @@ export const songList = [
         audioSrc:
           "https://joyo-musics.s3.ap-northeast-2.amazonaws.com/10CM+-+%E1%84%80%E1%85%B3%E1%84%85%E1%85%A1%E1%84%83%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A7%E1%86%AB+(Gradation).mp3",
       },
+      {
+        title: "Norihiro Tsuru - Last Carnival.",
+        audioSrc:
+          "https://joyo-musics.s3.ap-northeast-2.amazonaws.com/Norihiro+Tsuru+-+Last+Carnival.+(+Acoustic+Cafe+).mp3",
+      },
     ],
   },
   // 이지훈님
