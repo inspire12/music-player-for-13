@@ -61,20 +61,23 @@ export const songList = [
     songs: [
       {
         title: "악뮤 - 어떻게 이별까지 사랑하겠어, 널 사랑하는 거지",
-        audioSrc: "https://vpzczekdblsbcqpcisyc.supabase.co/storage/v1/object/sign/music/bibi.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtdXNpYy9iaWJpLm1wMyIsImlhdCI6MTcyOTg2NzE2MCwiZXhwIjoxNzMwNDcxOTYwfQ.we5ewlboh6aE2geOdkzH_vsOuDLy-Jf_OSsJayQCN5M&t=2024-10-25T14%3A39%3A15.976Z",
+        audioSrc: "https://joyo-musics.s3.ap-northeast-2.amazonaws.com/akmu.mp3",
       },
       {
         title: "NewJeans - How sweet",
-        audioSrc: "https://vpzczekdblsbcqpcisyc.supabase.co/storage/v1/object/sign/music/NewJeans.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtdXNpYy9OZXdKZWFucy5tcDMiLCJpYXQiOjE3Mjk4NjcxOTMsImV4cCI6MTczMDQ3MTk5M30.Fwz7Kfnp8NX6-b4eQ9qxw0rS-DR27sqyvzKlfBXo_h0&t=2024-10-25T14%3A39%3A49.427Z",
+        audioSrc:
+          "https://vpzczekdblsbcqpcisyc.supabase.co/storage/v1/object/sign/music/NewJeans.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtdXNpYy9OZXdKZWFucy5tcDMiLCJpYXQiOjE3Mjk4NjcxOTMsImV4cCI6MTczMDQ3MTk5M30.Fwz7Kfnp8NX6-b4eQ9qxw0rS-DR27sqyvzKlfBXo_h0&t=2024-10-25T14%3A39%3A49.427Z",
       },
       {
         title: "비비 - 우리가 헤어져야 했던 이유",
-        audioSrc: "https://vpzczekdblsbcqpcisyc.supabase.co/storage/v1/object/sign/music/bibi.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtdXNpYy9iaWJpLm1wMyIsImlhdCI6MTcyOTg2NzE2MCwiZXhwIjoxNzMwNDcxOTYwfQ.we5ewlboh6aE2geOdkzH_vsOuDLy-Jf_OSsJayQCN5M&t=2024-10-25T14%3A39%3A15.976Z",
+        audioSrc:
+          "https://vpzczekdblsbcqpcisyc.supabase.co/storage/v1/object/sign/music/bibi.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtdXNpYy9iaWJpLm1wMyIsImlhdCI6MTcyOTg2NzE2MCwiZXhwIjoxNzMwNDcxOTYwfQ.we5ewlboh6aE2geOdkzH_vsOuDLy-Jf_OSsJayQCN5M&t=2024-10-25T14%3A39%3A15.976Z",
       },
       {
         title: "Jazzyfact - Always awake",
-        audioSrc: "https://vpzczekdblsbcqpcisyc.supabase.co/storage/v1/object/sign/music/Always%20Awake.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtdXNpYy9BbHdheXMgQXdha2UubXAzIiwiaWF0IjoxNzI5ODY3MzYyLCJleHAiOjE3MzA0NzIxNjJ9.hJArWFf7jzf9-r5K54cTBn0LcX5n0X_txxnmHZwCnI8&t=2024-10-25T14%3A42%3A38.179Z",
-      }
+        audioSrc:
+          "https://vpzczekdblsbcqpcisyc.supabase.co/storage/v1/object/sign/music/Always%20Awake.mp3?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJtdXNpYy9BbHdheXMgQXdha2UubXAzIiwiaWF0IjoxNzI5ODY3MzYyLCJleHAiOjE3MzA0NzIxNjJ9.hJArWFf7jzf9-r5K54cTBn0LcX5n0X_txxnmHZwCnI8&t=2024-10-25T14%3A42%3A38.179Z",
+      },
     ],
   },
   // 김재영님
@@ -86,16 +89,19 @@ export const songList = [
     songs: [
       {
         title: "다이나믹 듀오 - 왜 벌써가",
-        audioSrc: "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/BeMyBrownie.mp3",
+        audioSrc:
+          "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/BeMyBrownie.mp3",
       },
       {
         title: "glen check - Dive Baby, Dive",
-        audioSrc: "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/DiveBabyDive.mp3",
+        audioSrc:
+          "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/DiveBabyDive.mp3",
       },
       {
         title: "John Newman - Love Me Again",
-        audioSrc: "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/LoveMeAgain.mp3",
-      }
+        audioSrc:
+          "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/LoveMeAgain.mp3",
+      },
     ],
   },
 ];
