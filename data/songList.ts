@@ -29,21 +29,19 @@ export const songList = [
     songs: [
       {
         title: "강타 - 그 해 여름",
-        audioSrc:
-          "/audio/kangta.mp3",
+        audioSrc: "https://joyo-musics.s3.ap-northeast-2.amazonaws.com/kangta.mp3",
       },
       {
         title: "Adam Levine - No One Else Like You",
-        audioSrc:
-          "/audio/no_one_else_like_you.mp3",
+        audioSrc: "https://joyo-musics.s3.ap-northeast-2.amazonaws.com/no_one_else_like_you.mp3",
       },
       {
         title: "리쌍 - TV를 껐네",
-        audioSrc: "/audio/leessang.mp3",
+        audioSrc: "https://joyo-musics.s3.ap-northeast-2.amazonaws.com/leessang.mp3",
       },
       {
         title: "실리카겔 (Silica Gel) - NO PAIN",
-        audioSrc: "/audio/noPain.mp3",
+        audioSrc: "https://joyo-musics.s3.ap-northeast-2.amazonaws.com/noPain.mp3",
       },
     ],
   },
