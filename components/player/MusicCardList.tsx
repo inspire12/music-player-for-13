@@ -11,6 +11,7 @@ interface Song {
 interface CardData {
   id: string;
   profileImage: string;
+  personName: string;
   description: string;
   songs: Song[];
 }
