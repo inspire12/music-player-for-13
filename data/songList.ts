@@ -55,7 +55,7 @@ export const songList = [
   // 서영학님
   {
     id: "3",
-    profileImage: "/images/yh_avatar.png",
+    profileImage: "/images/yh_avatar.jpeg",
     personName: "서영학",
     description: "가사가 좋은 노래들을 좋아합니다.😎",
     songs: [
@@ -80,7 +80,7 @@ export const songList = [
   // 김재영님
   {
     id: "4",
-    profileImage: "/images/jy_avatar.png",
+    profileImage: "/images/jy_avatar.jpeg",
     personName: "김재영",
     description: "아주 적당히 신나는 노래를 좋아합니다.",
     songs: [
