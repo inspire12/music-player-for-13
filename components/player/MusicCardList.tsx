@@ -22,7 +22,7 @@ interface CardListProps {
 export function MusicCardList({ cards }: CardListProps) {
   const { playingCardIndex, setPlayingCardIndex } = usePlayerStore();
   return (
-    <div className="grid grid-cols-2 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       {cards.map((card, index) => (
         <MusicCard
           key={card.id}
