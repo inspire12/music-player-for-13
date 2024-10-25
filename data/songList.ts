@@ -2,6 +2,7 @@ export const songList = [
   {
     id: "1",
     profileImage: "/images/jm_avatar.png",
+    personName: "김재민",
     description: "저는 zazzy 하고 groovy 한 음악을 좋아합니다. 😎",
     songs: [
       {
@@ -30,6 +31,7 @@ export const songList = [
   {
     id: "2",
     profileImage: "/images/jh_avatar.jpeg",
+    personName: "이지훈",
     description: "기분에 따라 듣는 노래가 알록달록합니다. 오늘은 신이 나 🥳",
     songs: [
       {
@@ -54,6 +56,7 @@ export const songList = [
   {
     id: "3",
     profileImage: "/images/yh_avatar.png",
+    personName: "서영학",
     description: "가사가 좋은 노래들을 좋아합니다.😎",
     songs: [
       {
@@ -78,6 +81,7 @@ export const songList = [
   {
     id: "4",
     profileImage: "/images/jy_avatar.png",
+    personName: "김재영",
     description: "아주 적당히 신나는 노래를 좋아합니다.",
     songs: [
       {
