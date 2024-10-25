@@ -1,7 +1,7 @@
 "use client";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardContent, CardDescription, CardHeader } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { PlayerControls } from "./PlayerControls";
@@ -14,6 +14,7 @@ interface Song {
 
 interface CardProps {
   profileImage: string;
+  personName: string;
   description: string;
   songs: Song[];
   isPlaying: boolean;
@@ -21,7 +22,15 @@ interface CardProps {
   onStop: () => void;
 }
 
-export function MusicCard({ profileImage, description, songs, isPlaying, onPlay, onStop }: CardProps) {
+export function MusicCard({
+  profileImage,
+  personName,
+  description,
+  songs,
+  isPlaying,
+  onPlay,
+  onStop,
+}: CardProps) {
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
   const audioRef = useRef<HTMLAudioElement>(null);
 
@@ -78,7 +87,10 @@ export function MusicCard({ profileImage, description, songs, isPlaying, onPlay,
             </AvatarFallback>
           </Avatar>
         </motion.div>
-        <CardDescription>{description}</CardDescription>
+        <div>
+          <CardTitle className="min-w-8">{personName}</CardTitle>
+          <CardDescription>{description}</CardDescription>
+        </div>
       </CardHeader>
       <CardContent>
         <div className="mb-4">

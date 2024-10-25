@@ -27,6 +27,7 @@ export function MusicCardList({ cards }: CardListProps) {
         <MusicCard
           key={card.id}
           profileImage={card.profileImage}
+          personName={card.personName}
           description={card.description}
           songs={card.songs}
           isPlaying={playingCardIndex === index}
