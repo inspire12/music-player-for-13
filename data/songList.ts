@@ -70,16 +70,20 @@ export const songList = [
   {
     id: "4",
     profileImage: "/images/jy_avatar.png",
-    description: "네 번째 아티스트의 앨범",
+    description: "아주 적당히 신나는 노래를 좋아합니다.",
     songs: [
       {
-        title: "재영님 노래 A",
-        audioSrc: "/audio/jm_song1.mp3",
+        title: "다이나믹 듀오 - 왜 벌써가",
+        audioSrc: "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/BeMyBrownie.mp3",
       },
       {
-        title: "재영님 노래 B",
-        audioSrc: "/audio/jm_song2.mp3",
+        title: "glen check - Dive Baby, Dive",
+        audioSrc: "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/DiveBabyDive.mp3",
       },
+      {
+        title: "John Newman - Love Me Again",
+        audioSrc: "https://nrjgsqpcylzxhrvcgfhi.supabase.co/storage/v1/object/public/music/LoveMeAgain.mp3",
+      }
     ],
   },
 ];
