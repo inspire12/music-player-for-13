@@ -98,8 +98,10 @@ export function MusicCard({
             {songs.map((song, index) => (
               <li
                 key={index}
-                className={`flex items-center ${
-                  index === currentSongIndex ? "font-bold text-primary" : ""
+                className={`flex items-center p-2 rounded-md transition-all duration-300 ${
+                  index === currentSongIndex
+                    ? "font-bold text-primary gradient-wave"
+                    : "hover:bg-gray-100"
                 }`}
               >
                 <PlayingBar isPlaying={index === currentSongIndex && isPlaying} />
@@ -115,7 +117,7 @@ export function MusicCard({
           onNext={playNextSong}
         />
       </CardContent>
-      <audio ref={audioRef} src={songs[currentSongIndex].audioSrc} onEnded={playNextSong} />
+      <audio ref={audioRef} src={songs[currentSongIndex ?? 0].audioSrc} onEnded={playNextSong} />
     </Card>
   );
 }
